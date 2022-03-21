@@ -1,8 +1,0 @@
-<launch>
-    <group ns="service_management">
-      <rosparam command="load" file="$(find service_management)/config/config.yaml" />
-    </group>
-
-    <node name="service_management" pkg="service_management" type="service_manager.py" output="screen" />
-
-</launch>
